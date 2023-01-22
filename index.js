@@ -13,7 +13,7 @@ const { LoginRouter } = require("./router/login");
 const { WomenRouter } = require("./router/product");
 const{ MensRouter} = require("./router/mens");
 const { BeautyRouter } = require("./router/beauty");
-const { KidsRouter } = require("./router/kids");
+// const { KidsRouter } = require("./router/kids");
 const app = express();
 app.use(cors());
 
