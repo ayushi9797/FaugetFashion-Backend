@@ -24,7 +24,7 @@ app.use("/user", LoginRouter);
 app.use("/product",WomenRouter)
 app.use("/mens", MensRouter,)
 app.use("/Makeup",BeautyRouter)
-app.use("/kids",KidsRouter)
+// app.use("/kids",KidsRouter)
 
 app.get("/", (req, res) => {
   res.send("WELCOME home");
