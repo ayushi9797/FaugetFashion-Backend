@@ -1,6 +1,6 @@
 const express = require("express");
 // const { authenticate } = require("../middleware/authentication_middleware");
-const { KidsModel } = require("../models/Kidsschema.js");
+const { KidsModel } = require("../models/kidsSchema");
 
 const KidsRouter = express.Router();
 
